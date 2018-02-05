@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour {
-
+	public characterBlink blinker;
 	public float BackGroundScrollSpeed = 2f;
 	public float BackGroundScrollLength = 32f;
 
@@ -46,6 +46,7 @@ public class GameControl : MonoBehaviour {
 	}
 
 	public void Hurt(int damage) {
+		blinker.startblinking();
 		health -= damage;
 		if (health <= 0) {
 			health = 0;
