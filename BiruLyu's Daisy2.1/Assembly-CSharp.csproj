@@ -69,13 +69,26 @@
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Level Menu 2D\Plugins\Pixelplacement\iTween\iTween.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\ClickTouchScript.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\ABClickScript.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\AutoInitScript.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\BackToMenuScript.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\ColorSwitcherScript.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\DemoSelectorClicker.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\SwipeDetector.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\TRClicker.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\Demo Scripts\VerticalDemoClicker.cs" />
+     <Compile Include="Assets\Level Menu 2D\Scripts\LevelMenu2D.cs" />
+     <Compile Include="Assets\Level Menu 2D\SingletonPerfect\Singleton.cs" />
+     <Compile Include="Assets\MenuClick.cs" />
      <Compile Include="Assets\pauseMenu.cs" />
-     <Compile Include="Assets\scrip.cs" />
      <Compile Include="Assets\Scripts\accelerate.cs" />
      <Compile Include="Assets\Scripts\autoMinusHealth.cs" />
      <Compile Include="Assets\Scripts\BGM.cs" />
      <Compile Include="Assets\Scripts\ChangeScale.cs" />
      <Compile Include="Assets\Scripts\characterBlink.cs" />
+     <Compile Include="Assets\Scripts\ChasingSpawner.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\justMoving.cs" />
@@ -173,13 +186,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="AGDLevelDesigner">
- <HintPath>/Users/BiruLyu/Downloads/BiruLyu's Daisy2.1/Assets/AbleGamesDev/LevelDesigner/AGDLevelDesigner.dll</HintPath>
+ <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/AbleGamesDev/LevelDesigner/AGDLevelDesigner.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets">
- <HintPath>/Users/BiruLyu/Downloads/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets_CartoonFXFreeWelcome">
- <HintPath>/Users/BiruLyu/Downloads/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+ <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/BiruLyu/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

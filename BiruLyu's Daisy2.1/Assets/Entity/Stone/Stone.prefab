@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy: 0
-  damage: 1
+  damage: 3
   speed: 3
   crack: {fileID: 8300000, guid: 03c3d29d154c0a94a9317a8af8d024de, type: 3}
 --- !u!212 &212341573186143820

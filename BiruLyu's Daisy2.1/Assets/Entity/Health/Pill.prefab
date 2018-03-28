@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1639756284083648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.35, y: -4.974927, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -124,7 +124,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1639756284083648}
   serializedVersion: 5
   lengthInSec: 1
-  simulationSpeed: 0.5
+  simulationSpeed: 0.7
   stopAction: 0
   looping: 1
   prewarm: 0
@@ -176,7 +176,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -809910968
+  randomSeed: -595912610
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -328,7 +328,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.5
+      scalar: 3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -521,7 +521,7 @@ ParticleSystem:
     startRotation:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 6.283185
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -849,8 +849,8 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 2
-          time: 0
-          value: 0.84848404
+          time: 0.004924774
+          value: 0
           inSlope: 1.421933
           outSlope: 1.421933
           tangentMode: 0
@@ -3513,7 +3513,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: ab5c3b9228336964c861ddf1140cf53c, type: 2}
+  - {fileID: 2100000, guid: 8b792cb67db7b42e3a4fa9ed7ce10eb6, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -3544,7 +3544,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_RenderAlignment: 0
-  m_Pivot: {x: 0, y: 0, z: 0}
+  m_Pivot: {x: -0.03, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_VertexStreams: 0001030405
   m_Mesh: {fileID: 0}

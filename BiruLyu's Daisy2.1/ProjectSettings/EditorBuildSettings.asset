@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Level_01.unity
     guid: afb72935b976f494ea104ec2c86f6052
   - enabled: 1
-    path: Assets/_Scenes/StartToNextLevel.unity
-    guid: 1c53a054ac6aa48f196fbb9d696bba8d
-  - enabled: 1
     path: Assets/_Scenes/Level_02.unity
     guid: 589042fc1361c46fcac3676a0f0df91b
   - enabled: 1
@@ -23,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Lose Screen.unity
     guid: 6b75dba0e540744c9b839d170f8e34f0
+  - enabled: 1
+    path: Assets/_Scenes/LevelMenu.unity
+    guid: 2e1e12031e20a48a498f2f88f51ef27a
