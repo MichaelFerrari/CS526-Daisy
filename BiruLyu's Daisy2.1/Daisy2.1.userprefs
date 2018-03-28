@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Entity/Player/PlayControl.cs">
+    <Files>
+      <File FileName="Assets/Entity/Player/PlayControl.cs" Line="133" Column="26" />
+      <File FileName="Assets/Scripts/characterBlink.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/accelerate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/autoMinusHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ChangeScale.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/JMO Assets/Cartoon FX/Demo/UI/CFX_Demo_GTToggle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Spawner.cs" Line="10" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
