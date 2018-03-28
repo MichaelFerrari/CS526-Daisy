@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{73DA0D5E-84B5-2A70-A657-D1DC019C9C7E}</ProjectGuid>
+    <ProjectGuid>{F1A56E9B-A341-8B71-9CF8-50C98069EC7B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -124,13 +124,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="AGDLevelDesigner">
- <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/Daisy2.1/Assets/AbleGamesDev/LevelDesigner/AGDLevelDesigner.dll</HintPath>
+ <HintPath>/Users/BiruLyu/Downloads/BiruLyu's Daisy2.1/Assets/AbleGamesDev/LevelDesigner/AGDLevelDesigner.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets">
- <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/Daisy2.1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ <HintPath>/Users/BiruLyu/Downloads/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets_CartoonFXFreeWelcome">
- <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/Daisy2.1/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+ <HintPath>/Users/BiruLyu/Downloads/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/BiruLyu/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -162,7 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B581B894-4D12-7A59-D669-B8805F42366C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{695BEF8A-512C-FC28-DD7C-72506E45FDAD}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

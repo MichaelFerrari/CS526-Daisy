@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 	public void LoadLevel(string name) {
 		SceneManager.LoadScene(name, LoadSceneMode.Single);
+        Time.timeScale = 1f;
 	}
 
 	public void ExitRequest() {
