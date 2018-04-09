@@ -97,11 +97,11 @@
      <Compile Include="Assets\Scripts\Position.cs" />
      <Compile Include="Assets\Scripts\RepeatBackground.cs" />
      <Compile Include="Assets\Scripts\ReverseMove.cs" />
+     <Compile Include="Assets\Scripts\rotation.cs" />
      <Compile Include="Assets\Scripts\ScrollingObject.cs" />
      <Compile Include="Assets\Scripts\Shooter.cs" />
      <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
-     <Compile Include="Assets\UETools\Magic_Particle_Effects\Scripts\CameraMovement.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
@@ -113,7 +113,6 @@
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add.shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Hidden.shader" />
-     <None Include="Assets\UETools\Magic_Particle_Effects\Readme.txt" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add VColor.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX4 Readme.txt" />
  <Reference Include="UnityEngine.UI">
@@ -184,9 +183,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="AGDLevelDesigner">
- <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/AbleGamesDev/LevelDesigner/AGDLevelDesigner.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets">
  <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>

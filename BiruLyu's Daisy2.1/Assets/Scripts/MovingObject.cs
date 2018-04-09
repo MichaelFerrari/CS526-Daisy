@@ -17,7 +17,7 @@ public class MovingObject : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!gameControl.gameOver) {
+		if (!gameControl.gameOver && !gameControl.gameEnd) {
 			float distance = speed * Time.deltaTime;
 			transform.position += new Vector3 (-distance, 0);
 		}
@@ -30,4 +30,21 @@ public class MovingObject : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collider) {
 		AudioSource.PlayClipAtPoint (crack, transform.position);
 	}
+
+
+	void OnParticleCollision(GameObject other) {
+		Debug.Log("Damage");
+        Rigidbody body = other.GetComponent<Rigidbody>();
+        if (body) {
+			Debug.Log("Damage");
+		}
+
+
+//            Vector3 direction = other.transform.position - transform.position;
+//            direction = direction.normalized;
+//            body.AddForce(direction * 5);
+//        }
+//
+//		{ if(other.transform.tag == "Player") { Debug.Log("Damage"); } }
+    }
 }

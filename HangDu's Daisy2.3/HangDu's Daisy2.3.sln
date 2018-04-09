@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangDu's Daisy2.3", "Assembly-CSharp.csproj", "{7FD113ED-C925-2D11-D0E5-872B9DFFC9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangDu's Daisy2.3", "Assembly-CSharp-Editor.csproj", "{B2890069-1957-0F6E-43D8-15BBE98A7B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FD113ED-C925-2D11-D0E5-872B9DFFC9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD113ED-C925-2D11-D0E5-872B9DFFC9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD113ED-C925-2D11-D0E5-872B9DFFC9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD113ED-C925-2D11-D0E5-872B9DFFC9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2890069-1957-0F6E-43D8-15BBE98A7B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2890069-1957-0F6E-43D8-15BBE98A7B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2890069-1957-0F6E-43D8-15BBE98A7B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2890069-1957-0F6E-43D8-15BBE98A7B86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

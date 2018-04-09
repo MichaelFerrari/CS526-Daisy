@@ -123,9 +123,6 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="AGDLevelDesigner">
- <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/AbleGamesDev/LevelDesigner/AGDLevelDesigner.dll</HintPath>
- </Reference>
  <Reference Include="JMOAssets">
  <HintPath>/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>

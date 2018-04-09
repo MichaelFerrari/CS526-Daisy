@@ -1,0 +1,11 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/MenuClick.cs" line="50" column="1" />
+      <Breakpoint file="/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/Level Menu 2D/Scripts/LevelMenu2D.cs" line="501" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

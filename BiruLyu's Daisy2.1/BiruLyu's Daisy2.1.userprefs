@@ -1,27 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChasingSpawner.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assets/Scripts/MovingObject.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LevelManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Entity/Player/PlayControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BGM.cs" Line="1" Column="1" />
-      <File FileName="Assets/Level Menu 2D/Scripts/LevelMenu2D.cs" Line="1" Column="1" />
-      <File FileName="Assets/Level Menu 2D/Scripts/ClickTouchScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/JMO Assets/Cartoon FX/Demo/UI/CFX_Demo_GTToggle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Level Menu 2D/Plugins/Pixelplacement/iTween/iTween.cs" Line="1" Column="1" />
+      <File FileName="Assets/JMO Assets/Cartoon FX/Demo/UI/CFX_Demo_GTButton.cs" Line="1" Column="1" />
       <File FileName="Assets/Level Menu 2D/Scripts/Demo Scripts/DemoSelectorClicker.cs" Line="1" Column="1" />
-      <File FileName="Assets/Level Menu 2D/Scripts/Demo Scripts/ABClickScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/MenuClick.cs" Line="1" Column="1" />
-      <File FileName="Assets/Level Menu 2D/Scripts/Demo Scripts/AutoInitScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ScrollingObject.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Spawner.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/ChasingSpawner.cs" Line="8" Column="38" />
+      <File FileName="Assets/Scripts/GameControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RepeatBackground.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ReverseMove.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/MenuClick.cs" line="50" column="1" />
       <Breakpoint file="/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/Level Menu 2D/Scripts/LevelMenu2D.cs" line="501" column="1" />
-      <Breakpoint file="/Users/BiruLyu/Dropbox/CS526 Assets/BiruLyu's Daisy2.1/Assets/Level Menu 2D/Scripts/LevelMenu2D.cs" line="164" column="53" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

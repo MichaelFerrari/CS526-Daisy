@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Start Menu.unity
+    guid: 2094a5a8a15b04f0d89edf7962195491
+  - enabled: 1
+    path: Assets/_Scenes/Level_01.unity
+    guid: 10b1a7504e7d43547869a45cffec9258
+  - enabled: 1
+    path: Assets/_Scenes/Level_01_Win.unity
+    guid: ba9f9966138b34de184fa59b376e07a3
+  - enabled: 1
+    path: Assets/_Scenes/Level_02.unity
+    guid: 774d66990b22a9b42bc175673e0d926c
+  - enabled: 1
+    path: Assets/_Scenes/Level_02_Win.unity
+    guid: 2a9e8a9a603a741419661fd81a9e4df6
+  - enabled: 1
+    path: Assets/_Scenes/Level_03.unity
+    guid: 64179b48733d04d79b5b5edf44ad1f72
+  - enabled: 1
+    path: Assets/_Scenes/Level_04.unity
+    guid: 662f0a440d3e94b5d8df65b3ecec7e83
+  - enabled: 1
+    path: Assets/_Scenes/Level_05.unity
+    guid: 8846467d5c87f4b95825e78904267177
+  - enabled: 1
+    path: Assets/_Scenes/Lose Screen.unity
+    guid: 6b75dba0e540744c9b839d170f8e34f0
+  - enabled: 1
+    path: Assets/_Scenes/LevelMenu.unity
+    guid: 2e1e12031e20a48a498f2f88f51ef27a
