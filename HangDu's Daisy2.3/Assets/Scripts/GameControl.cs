@@ -33,6 +33,8 @@ public class GameControl : MonoBehaviour {
 	private PlayControl playControl;
 	private float totalTime = 0f;
 
+	public GameObject pauseMenuUI;
+	public GameObject resumeButton;
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +42,7 @@ public class GameControl : MonoBehaviour {
 		playControl = GameObject.FindObjectOfType<PlayControl> ();
 		healthText.text = "Health: " + health.ToString();
 		totalHealth = health;
+		resumeButton.SetActive(true);
 	}
 	
 	// Update is called once per frame
@@ -103,6 +106,11 @@ public class GameControl : MonoBehaviour {
 	}
 
 	public void goToLose() {
-		levelManger.LoadLevel ("Lose Screen");
+		//levelManger.LoadLevel ("Lose Screen");
+
+		pauseMenuUI.SetActive(true);
+		resumeButton.SetActive(false);
+		Time.timeScale = 0f;
+
 	}
 }

@@ -14,7 +14,7 @@ public class justMoving : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!gameControl.gameOver) {
+		if (!gameControl.gameOver && !gameControl.gameEnd) {
 			float distance = speed * Time.deltaTime;
 			transform.position += new Vector3 (-distance, 0);
 		}

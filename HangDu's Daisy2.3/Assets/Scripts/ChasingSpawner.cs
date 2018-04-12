@@ -27,20 +27,35 @@ public class ChasingSpawner : MonoBehaviour {
 				isActive = true;
 			}
 			if (isActive) {
+				float distance = transform.position.x - player.transform.position.x;
 				if (isForward) {
-					horizontalDistance += 0.1f;
+					sprite.flipX = false;
+					//horizontalDistance += 0.1f;
+					if (distance > 8f) {
+						distance += 0.3f;
+					}
+					else {
+						distance += 0.1f;
+					}
 				} else {
-					horizontalDistance -= 0.1f;
+					sprite.flipX = true;
+					//horizontalDistance -= 0.1f;
+					if (distance < -8f) {
+						distance -= 0.3f;
+					}
+					else {
+						distance -= 0.1f;
+					}
 				}
 				if (isUp) {
 					verticalDistance += 0.08f;
 				} else {
 					verticalDistance -= 0.08f;
 				}
-				transform.position = new Vector3 (player.transform.position.x + horizontalDistance, yValue + verticalDistance, player.transform.position.z);
-				if (horizontalDistance >= 8) {
+				transform.position = new Vector3 (player.transform.position.x + distance, yValue + verticalDistance, player.transform.position.z);
+				if (distance >= 8) {
 					isForward = false;
-				} else if (horizontalDistance <= -8) {
+				} else if (distance <= -8) {
 					isForward = true;
 				}
 				if (verticalDistance >= 5) {
@@ -48,7 +63,7 @@ public class ChasingSpawner : MonoBehaviour {
 				} else if (verticalDistance <= -5) {
 					isUp = true;
 				}
-				transparency -= 0.0005f;
+				transparency -= 0.001f;
 				sprite.color = new Color (sprite.color.r, sprite.color.g, sprite.color.b, transparency);
 				if (transparency <= 0.4) {
 					Destroy (gameObject);

@@ -29,9 +29,9 @@ public class ScrollingObject : MonoBehaviour {
 			float distance = gameControl.BackGroundScrollSpeed * Time.deltaTime;
 			totalDistance += distance;
 			player.transform.position += new Vector3 (distance, 0);
-			if (totalDistance > gameControl.totalDistance) {
-				gameControl.GameWin ();
-			}		
+//			if (totalDistance > gameControl.totalDistance) {
+//				gameControl.GameWin ();
+//			}		
 		}
 	}
 }
