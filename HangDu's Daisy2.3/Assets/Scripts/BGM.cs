@@ -19,6 +19,16 @@ public class BGM : MonoBehaviour {
 
 	void Start () {
 		Debug.Log ("Music player Start " + GetInstanceID());
+		if(mute.isMuting)
+		{
+			Destroy (gameObject);
+		}
+	}
+
+
+	public void toMenu()
+	{
+		Destroy (gameObject);
 	}
 	
 	// Update is called once per frame

@@ -14,9 +14,15 @@ public class justVerticalMoving : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (!gameControl.gameOver && !pauseMenu.GameIsPaused) {
-			float distance = speed * Time.deltaTime;
-			transform.position += new Vector3 (0, -distance, 0);
+		if (transform.position.x < 15.5) {
+			if (!gameControl.gameOver && !pauseMenu.GameIsPaused) {
+				float distance = speed * Time.deltaTime;
+				transform.position += new Vector3 (0, -distance, 0);
+			}
 		}
+//		if (!gameControl.gameOver && !pauseMenu.GameIsPaused) {
+//			float distance = speed * Time.deltaTime;
+//			transform.position += new Vector3 (0, -distance, 0);
+//		}
 	}
 }

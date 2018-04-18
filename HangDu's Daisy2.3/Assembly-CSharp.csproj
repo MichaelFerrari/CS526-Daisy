@@ -81,7 +81,7 @@
      <Compile Include="Assets\Level Menu 2D\scripts\Demo Scripts\VerticalDemoClicker.cs" />
      <Compile Include="Assets\Level Menu 2D\scripts\LevelMenu2D.cs" />
      <Compile Include="Assets\Level Menu 2D\SingletonPerfect\Singleton.cs" />
-     <Compile Include="Assets\MenuClick.cs" />
+     <Compile Include="Assets\music_btn\mute.cs" />
      <Compile Include="Assets\Scripts\accelerate.cs" />
      <Compile Include="Assets\Scripts\autoMinusHealth.cs" />
      <Compile Include="Assets\Scripts\BGM.cs" />
@@ -93,6 +93,7 @@
      <Compile Include="Assets\Scripts\justMoving.cs" />
      <Compile Include="Assets\Scripts\justVerticalMoving.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\MenuClick.cs" />
      <Compile Include="Assets\Scripts\MovingObject.cs" />
      <Compile Include="Assets\Scripts\pauseMenu.cs" />
      <Compile Include="Assets\Scripts\Position.cs" />
@@ -104,6 +105,8 @@
      <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\ToWin.cs" />
+     <Compile Include="Assets\Scripts\video.cs" />
+     <Compile Include="Assets\thunder\lighteningObject.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayControl : MonoBehaviour {
-	public bool isComputer;
+	public static bool isComputer;
 	private float padding = 1f;
 	private float xmin;
 	private float xmax;
@@ -24,7 +24,7 @@ public class PlayControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-//		isComputer = true;
+		isComputer = true;
 		gameControl = GameObject.FindObjectOfType<GameControl> ();
 		float distance = transform.position.z - Camera.main.transform.position.z;
 		Vector3 leftMost = Camera.main.ViewportToWorldPoint (new Vector3(0, 0, distance));

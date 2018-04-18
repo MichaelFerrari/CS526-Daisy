@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ChasingSpawner : MonoBehaviour {
 	public PlayControl player;
+	public GameControl game;
 	private SpriteRenderer sprite;
 	private float horizontalDistance = 8f;
 	private float verticalDistance = 0f;
@@ -15,6 +16,7 @@ public class ChasingSpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindObjectOfType<PlayControl>();
+		game = GameObject.FindObjectOfType<GameControl>();
 		sprite = gameObject.GetComponent<SpriteRenderer>();
 		yValue = transform.position.y;
 	}
@@ -22,7 +24,7 @@ public class ChasingSpawner : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (!pauseMenu.GameIsPaused) {
+		if (!pauseMenu.GameIsPaused && !game.gameOver) {
 			if ((transform.position.x - player.transform.position.x) < 8) {
 				isActive = true;
 			}

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50799617831184112}
   - component: {fileID: 60720427502958026}
   - component: {fileID: 114302485682029458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: flyingBird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4383083234196400}
   - component: {fileID: 114970683682484190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: birdGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 50853358359702250}
   - component: {fileID: 60469732648889176}
   - component: {fileID: 114836974183913650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'flyingBird '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 50332803171827960}
   - component: {fileID: 60432984531196456}
   - component: {fileID: 114218610410791854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: flyingBird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1576954399608132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 25.87056, y: 8.331859, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4047070148394358}
@@ -606,10 +606,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1576954399608132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2f56cccd4b52451684a67b96c9aed4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5aee3baae061940239224b54cbc3d0de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
+  speed: 2
 --- !u!212 &212279799046746944
 SpriteRenderer:
   m_ObjectHideFlags: 1

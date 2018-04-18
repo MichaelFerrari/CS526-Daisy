@@ -1,18 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuClick.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameControl.cs" Line="45" Column="32" />
-      <File FileName="Assets/Scripts/justMoving.cs" Line="13" Column="3" NotebookId="1" />
-      <File FileName="Assets/Scripts/ScrollingObject.cs" Line="9" Column="34" NotebookId="1" />
-      <File FileName="Assets/Scripts/rotation.cs" Line="20" Column="4" NotebookId="1" />
-      <File FileName="Assets/Scripts/ChasingSpawner.cs" Line="25" Column="29" NotebookId="1" />
-      <File FileName="Assets/Entity/Player/PlayControl.cs" Line="99" Column="7" NotebookId="1" />
-      <File FileName="Assets/Scripts/pauseMenu.cs" Line="38" Column="29" NotebookId="1" />
+      <File FileName="Assets/Scripts/GameControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HealthBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MovingObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/pauseMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Entity/Player/PlayControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MenuClick.cs" Line="28" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/BiruLyu/Dropbox/CS526 Assets/HangDu's Daisy2.3/Assets/Scripts/MenuClick.cs" line="9" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

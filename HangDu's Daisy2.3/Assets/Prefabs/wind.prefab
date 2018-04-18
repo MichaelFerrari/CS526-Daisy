@@ -97,8 +97,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1896550694788354}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.624126, y: -2.7346115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4084928261218118}
@@ -283,9 +283,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy: 0
-  damage: 1
+  damage: 2
   speed: 2
-  crack: {fileID: 8300000, guid: 03c3d29d154c0a94a9317a8af8d024de, type: 3}
+  crack: {fileID: 8300000, guid: bb116076e48e447bb890dc278db86cf3, type: 3}
 --- !u!114 &114708113172556072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -298,9 +298,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy: 0
-  damage: 1
+  damage: 2
   speed: 2
-  crack: {fileID: 8300000, guid: 03c3d29d154c0a94a9317a8af8d024de, type: 3}
+  crack: {fileID: 8300000, guid: bb116076e48e447bb890dc278db86cf3, type: 3}
 --- !u!212 &212181928629828892
 SpriteRenderer:
   m_ObjectHideFlags: 1

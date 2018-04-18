@@ -28,7 +28,8 @@ public class MovingObject : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D collider) {
-		AudioSource.PlayClipAtPoint (crack, transform.position);
+		if(!mute.isMuting)
+			AudioSource.PlayClipAtPoint (crack, transform.position);
 	}
 
 
