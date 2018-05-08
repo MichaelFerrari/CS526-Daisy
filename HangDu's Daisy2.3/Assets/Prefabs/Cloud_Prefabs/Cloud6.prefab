@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 60162574425877770}
   - component: {fileID: 50946637845936624}
   - component: {fileID: 114688233705621114}
+  - component: {fileID: 114432973959700042}
   m_Layer: 8
   m_Name: Cloud6
   m_TagString: Untagged
@@ -116,6 +117,18 @@ PolygonCollider2D:
       - {x: 1.3, y: 0}
       - {x: 1.4499999, y: 0.11}
       - {x: 1.53, y: 0.29}
+--- !u!114 &114432973959700042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537851471130892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7cf7d6fd42e49df98c783f8b1629f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
 --- !u!114 &114688233705621114
 MonoBehaviour:
   m_ObjectHideFlags: 1

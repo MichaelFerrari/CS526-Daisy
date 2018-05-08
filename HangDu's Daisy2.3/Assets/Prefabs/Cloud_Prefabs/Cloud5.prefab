@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 60664936572002056}
   - component: {fileID: 50125629572881048}
   - component: {fileID: 114446530620297024}
+  - component: {fileID: 114655931381777032}
   m_Layer: 8
   m_Name: Cloud5
   m_TagString: Untagged
@@ -151,6 +152,18 @@ MonoBehaviour:
   damage: 1
   speed: 2
   crack: {fileID: 8300000, guid: e79b0f09607b54aefaf467f58dc05706, type: 3}
+--- !u!114 &114655931381777032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351007892867072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7cf7d6fd42e49df98c783f8b1629f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
 --- !u!212 &212624274753271802
 SpriteRenderer:
   m_ObjectHideFlags: 1
